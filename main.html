@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- chatgpt ass website -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>passthetimealone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-black text-gray-100 font-sans">
+  <!-- Navbar -->
+  <header class="bg-gray-950 shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-400">my portfolio</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-indigo-400 transition">about</a>
+        <a href="#projects" class="hover:text-indigo-400 transition">contributions</a>
+        <a href="#contact" class="hover:text-indigo-400 transition">contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4 fade-in">hi, i'm <span class="text-indigo-400">passthetimealone</span></h2>
+    <p class="text-lg md:text-xl text-gray-400 max-w-xl fade-in">i build bots!</p>
+    <div class="mt-6 space-x-4 fade-in">
+      <a href="#projects" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg shadow-lg transition">contributions</a>
+      <a href="#contact" class="border border-indigo-400 px-6 py-3 rounded-lg hover:bg-indigo-400 hover:text-gray-900 transition">contact me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-5xl mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-8 fade-in">about me</h3>
+    <p class="text-gray-400 text-lg leading-relaxed text-center fade-in">im a 13 year old passoniate developer from pittsburgh pennsylvania</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-950 py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-12 fade-in">Projects</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <!-- Project Card 1 -->
+      <div class="bg-black rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition fade-in">
+        <img src="https://cdn.discordapp.com/attachments/1404492295994081305/1409947366949388491/botballs.png?ex=68af3b4f&is=68ade9cf&hm=6f94f2f6c5909f4933c6d7b148c9699c00ded1293bbb1f8b18f1d2b6e8a136b6&" alt="Project Screenshot" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">zymbot</h4>
+          <p class="text-gray-400 mb-4">crappy old bleed clone with 45 commands</p>
+          <div class="flex space-x-4">
+          </div>
+        </div>
+      </div>
+      <!-- Project Card 2 -->
+      <div class="bg-black rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition fade-in">
+        <img src="https://cdn.discordapp.com/banners/1406453749651607613/60a24ee29e7ba6f30b7aca791853b0fc.webp?size=1024" alt="Project Screenshot" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">oxygen</h4>
+          <p class="text-gray-400 mb-4">oxygen was a nice little bot by my friend with different api features, very neat.</p>
+          <div class="flex space-x-4">
+          </div>
+        </div>
+      </div>
+      <!-- Project Card 3 -->
+      <div class="bg-black rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition fade-in">
+        <img src="https://cdn.discordapp.com/avatars/1402077820309475378/500ae78b8cd9ab5fe709877c7aa8e22a.webp?size=1024" alt="Project Screenshot" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h4 class="text-xl font-semibold mb-2">pixelrank</h4>
+          <p class="text-gray-400 mb-4">pixel rank is a nice, neat, and organized bot created by clyntor.</p>
+          <p class="text-gray-400 mb-4">https://discord.gg/c4A4Qqggq9</p>
+          <div class="flex space-x-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto py-20 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6 fade-in">get in touch</h3>
+    <p class="text-gray-400 mb-8 fade-in">interested in working together or have a question? reach out to me!</p>
+    <a href="mailto:findthetruthinyourheart@gmail.com" class="bg-indigo-500 hover:bg-indigo-600 px-6 py-3 rounded-lg shadow-lg transition fade-in">e-mail me</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 py-6 text-center text-gray-500">
+    <p>&copy; 2025 | created with love by lennon | i love you ryleigh</p>
+  </footer>
+
+  <!-- ScrollReveal Animations -->
+  <script>
+    ScrollReveal().reveal('.fade-in', {
+      delay: 200,
+      distance: '40px',
+      duration: 1000,
+      easing: 'ease-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
+</body>
+</html>
